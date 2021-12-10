@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:wght@300;400;500&display=swap');
+body {
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+  }
+  .top-bar {
+    background: #fff;
+    height: 2.5rem;
+    padding: 0.5rem 0;
+  }
+  .top-bar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .navbar {
+    background: #2d1628;
+    color: #fff;
+  }
+  .navbar .text-primary a {
+    color: #fff;
+  }
+  .navbar .text-primary a:hover {
+    color: #c0b4c8;
+  }
+  /* CAROUSEL */
+#carousel {
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+  }
+  .carousel-inner {
+    max-height: 63rem !important;
+  }
+  /*---Change Carousel Transition Speed --*/
+  .carousel-item-next,
+  .carousel-item-prev,
+  .carousel-item.active {
+    transition: transform 1.2s ease;
+  }
+  .carousel-caption {
+    font-family:  'Kaushan Script', cursive;
+    position: absolute;
+    top: 73%;
+    transform: translateY(-50%);
+  }
+  .carousel-caption h1 {
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  .btn-color {
+    color: #fff;
+    background: #2d1628 !important;
+    border: 0.05rem solid #2d1628 !important;
+  }
+  .btn-color:hover,
+  .btn-color:focus {
+    color: #fff;
+    opacity: 0.9;
+    background: #2d1628 !important;
+    border: 0.05rem solid #2d1628 !important;
+  }
+  
+  .bg-caption {
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    border-radius: 15px;
+  }
+  /* About Us */
+.border-primary,
+.border-white {
+  height: 1px;
+  width: 5rem;
+  background: #9783a4;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+.lead {
+  line-height: 1.8;
+  word-spacing: 1.5px;
+  letter-spacing: 0.2px;
+}
+
+/* Service-Menu */
+.text-menu {
+  color: #756083;
+}
+.text-title {
+  color: #d5ca88;
+}
+
+/* Reviews */
+.bg-custom {
+  background: #2d1628;
+}
+.bg-grey {
+  background-color: #6b6b73;
+  color: #fff;
+}
+.news-input {
+  width: 80%;
+}
+
+/* Contact-Hours */
+.text-grey {
+  color: #87848b;
+}
+.text-weight {
+  font-weight: 200;
+  color: #87848b;
+}
+.img-jmbo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../img-nails/orchid.jpg");
+  background-size: cover;
+  height: 40vh;
+}
+
+/* Media */
+
+@media only screen and (max-width: 768px) {
+  .img-jmbo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../img-nails/orchid.jpg");
+    background-size: cover;
+    height: 85vh;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .img-jmbo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../img-nails/orchid.jpg");
+      background-size: cover;
+    height: 40vh;
+  }
+}
+
